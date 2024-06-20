@@ -1,0 +1,127 @@
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 7%;
+}
+.wordings {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+.intro {
+  text-align: center;
+}
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 30em;
+  border: 1px solid #000;
+  padding: 0 20px;
+  justify-self: center;
+}
+
+.searchWrapper {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.intro {
+  color: var(--Neutrals-Dark, #040404);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.8px;
+}
+.abtn {
+  border: none;
+  border-radius: 12px;
+  color: aliceblue;
+  background-color: #b69797;
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+.abtn:hover {
+  color:#ebdfdf ;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: #040404;
+}
+.create {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  color: #040404;
+}
+
+input {
+  border: none;
+  width: 70%;
+}
+input:focus,
+input:not(:placeholder-shown) {
+  border: none;
+  outline: none;
+}
+@media screen and (max-width: 768px) {
+  .container2{
+    width: auto;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 20px 7%;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .create{
+    font-size: 14px;
+  }
+  .wordings{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 15px;
+    align-items: center;
+  }
+  .intro{
+    font-size: 35px;
+    width: auto;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .events{
+    font-size: 10px;
+  }
+  .see{
+    font-size: 15px;
+  }
+
+}

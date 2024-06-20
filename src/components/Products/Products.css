@@ -1,0 +1,93 @@
+.body1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 0 10%;
+}
+
+.upComing {
+  display: flex;
+  justify-content: space-between;
+}
+.row1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 3% 0;
+}
+
+.title1 {
+  text-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0 1 24%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+.card:hover {
+  border-radius: 16px;
+  box-shadow: 2px 4px 16px #00000029;
+  cursor: pointer;
+  transform: scale(1.01, 1.01, 1.01);
+}
+.choral {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.text-wrapper {
+  padding: 20px;
+  .title {
+    font-weight: bold;
+  }
+}
+
+.events {
+  font-size: 25px;
+  font-weight: 700;
+}
+.bttn {
+  width: 270px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: #0e0e0e;
+  cursor: pointer;
+  border: none;
+  transition: all ease-in-out 0.5s;
+}
+.bttn:hover {
+  background-color: #504747;
+  color: #ebebeb;
+}
+.logout-btn {
+  background-color: #111110; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  width: 270px;
+  height: 40px;
+  cursor: pointer; 
+  border-radius: 12px; 
+  transition: background-color 0.3s ease; 
+}
+
+.logout-btn:hover {
+  background-color: #504747; 
+}
+
+.more {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}

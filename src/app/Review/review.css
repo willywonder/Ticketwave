@@ -1,0 +1,103 @@
+.review {
+  display: flex;
+  flex-direction: column;
+}
+
+.headred {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 140px;
+}
+.pay {
+  display: flex;
+  gap: 10px;
+  color: "#040404";
+  font: size 10px;
+  font-weight: "400";
+  word-wrap: "break-word";
+}
+.rev2 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  /* width: 100%; */
+}
+.paymethod {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  font-size: 17px;
+  color: "#040404";
+  font-size: 32;
+  font-weight: "500";
+  word-wrap: "break-word";
+  /* width: 100%; */
+}
+.credit {
+  display: flex;
+  gap: 15px;
+  border-style: ridge;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.place {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 8px;
+  font-size: 16;
+
+  font-weight: "500";
+  word-wrap: "break-word";
+  width: 200px;
+}
+.phone {
+  /* width: 100%; */
+  padding: 15px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.purchase {
+  color: var(--Neutrals-Secondary-Text, #666);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 144%;
+}
+.rev1 {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .headred {
+    padding: 40px 10%;
+  }
+.paymethod{
+  width: auto;
+}
+.infor{
+  width: auto;
+}
+.phone{
+  width: 100%;
+}
+  .rev2,
+  .paymethod {
+    width: 100%;
+    /* max-width: 600px; */
+
+    margin: 0 auto;
+
+    .credit,
+    .phone {
+      width: 100%;
+      /* max-width: 580px; */
+
+      margin: 0 auto;
+    }
+  }
+}
